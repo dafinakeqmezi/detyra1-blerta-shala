@@ -27,3 +27,25 @@ Algoritmi BFS përdor radhë (deque) dhe nuk fut në radhë tabela të pavlefshm
 
 Matrica n×n ku çdo numër 1..n del një herë në çdo rresht e kolonë. Kërkimi IDDFS shton nga një rresht në çdo nivel. Funksioni objektiv: numri i përsëritjeve. Landscape: (n!)^n.
 
+## 4. Pemët e kërkimit
+
+### 8-Puzzle
+
+```
+            1 2 3
+            4 0 6     (fillimi)
+            7 5 8
+     ┌────────┬───┴────┬────────┐
+     L        P        M        D
+   1 0 3    1 2 3    1 2 3    1 2 3
+   4 2 6    4 5 6    0 4 6    4 6 0
+   7 5 8    7 0 8    7 5 8    7 5 8
+```
+
+### Misionarët dhe kanibalët
+
+Gjendja (M, C, B). Fillimi (3,3,L), qëllimi (0,0,R).
+
+```
+(3,3,L) → 2C → (3,1,R) → 1C → (3,2,L) → 2C → (3,0,R) → …
+```
