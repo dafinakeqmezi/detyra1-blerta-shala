@@ -2,7 +2,7 @@
 
 Studentja: Blerta Shala
 
-Programet: `golf_dfs.py`, `sudoku_bfs.py`, `katrori_latin.py`.
+Programet: `golf_dfs.py`, `sudoku_bfs.py`, `katrori_latin.py`, `pemet.py` (pemët e kërkimit).
 
 ## 1. Problemi i golferëve (Social Golfers)
 
